@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Saral::VERSION
   spec.authors       = ["Michael Pope"]
   spec.email         = ["amorphid@captaincoder.io"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A Rack based web framework }
+  spec.description   = %q{A Rack based web framework built by RubyLearning. }
+  spec.homepage      = "http://www.rubylearning.org"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_runtime_dependency "rack"
 end
